@@ -1,0 +1,167 @@
+header {
+    background-color: #666;
+    text-align: center;
+    color: black;
+    height: 100px;
+    width: 1170px;
+    margin: 0px auto;
+}
+.logo{
+    float: left;
+    font-size: 60px;
+    padding: 5px 0px 5px 70px;
+    text-decoration: none;
+    color: black !important;
+    margin: 0px;
+    width: 80%;
+    clear: right;
+}
+footer {
+    background-color: #777;
+    text-align: center;
+    color: black;
+    height: 70px;
+    width: 1170px;
+    margin: 0px auto;
+}
+nav {
+    float: left;
+    width: 270px;
+    height: 100%;
+    background: #ccc;
+    clear: right;
+}
+article {
+    float: left;
+    width: 900px;
+    background-color: #f1f1f1;
+    height:100%;
+    clear: right;
+    overflow: scroll;
+}
+.contain {
+    height: 600px;
+    font-family: Arial;
+    margin: 0px auto;
+    width: 1170px;
+}
+.foot{
+    margin: 0px;
+    padding: 20px;
+}
+.mrg{
+    margin: 0px 10px;
+}
+a{
+    text-decoration: none;
+    color: black !important;
+}
+li{
+    margin-bottom: 20px;
+}
+ul{
+    list-style: none;
+}
+table{
+    width: 100%;
+}
+table, th, td {
+    text-align: center;
+}
+th {
+    background-color:  #999999;
+    color: black;
+}
+tr:nth-child(even){
+    background-color:  #999999;
+}
+tr:nth-child(odd){
+    background-color:  #b3b3b3;
+}
+.login_btn{
+    float: right;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 10px;
+    clear: right;
+    margin: 20px;
+    border: none;
+    font-size: 20px;
+    width: 10%;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=tel] {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 3px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.pic{
+    margin: 5px;
+    float: left;
+}
+.select-box{
+    margin: 5px 20px 5px 0px;
+    padding: 12px 10px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 18px;
+    margin: 3px 0;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    background-color: #f44336;
+}
+.updatebtn {
+    background-color: #3BB9FF;
+}
+#albumName{
+    text-align: center;
+    background: #e64e9a;
+    border-radius: 20px;
+    padding: 5px;
+}
+.pagination{
+    clear: both;
+}
+.pagination a{
+    padding: 10px;
+    margin-right: 5px;
+    background: #666;
+    color: white !important;
+    border-radius: 5px;
+}
+#currentPage{
+    background: #3BB9FF;
+    padding: 10px;
+    color: black !important;
+}
+#successMsg{
+    color: #4CAF50;
+}
+#deleteMsg{
+    color: #f44336;
+}
+.active{
+    background-color: #ffad33;
+    padding: 10px;
+}
+#epic{
+    overflow: hidden;
+}
